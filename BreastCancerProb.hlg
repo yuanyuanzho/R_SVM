@@ -1,0 +1,91 @@
+Wed Oct 18 22:41:46 2017
+
+
+Moral links:
+
+
+
+Triangulating prime component with 2 members:
+    S1, D2
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    S2, D2
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    S, D
+This component is a clique of cost 4
+
+
+Total cost of triangulation for all prime components is 12
+
+
+Elimination sequence:
+
+    S1
+    S2
+    D2
+    D
+    S
+
+
+Cliques:
+
+Clique 3, 2 members, table size = 4:
+    S, D
+
+Clique 2, 2 members, table size = 4:
+    D2, S2
+
+Clique 1, 2 members, table size = 4:
+    D2, S1
+
+Total clique table size: 12
+
+
+The junction forest:
+
+Creating junction tree with clique 3 as root ...
+
+Creating junction tree with clique 2 as root ...
+
+Cliques 1 and 2 linked, separator has 1 member and table size = 2:
+    D2
+
+
+Assignment of potentials to cliques:
+
+    Node S2 assigned to clique 2
+    Node S1 assigned to clique 1
+    Node D2 assigned to clique 2
+    Node S assigned to clique 3
+    Node D assigned to clique 3
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    S2:
+	Yes        0.1602
+	No         0.8398
+
+    S1:
+	Yes        0.14668
+	No         0.85332
+
+    D2:
+	Yes        0.08
+	No         0.92
+
+    S:
+	Yes        0.10304
+	No         0.89696
+
+    D:
+	Yes        0.01
+	No         0.99
